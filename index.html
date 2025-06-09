@@ -9,14 +9,14 @@
 <body>
     <div class="container">
         <h1>Random Password Generator</h1>
-        <input type="password" name="" id="password">
-        <button>COPY</button>
-        <input type="range" name="" id="passwordLength">
+        <input type="password" id="password">
+        <button class="copyBtn">COPY</button>
+        <input type="range" min="8" id="passwordLength">
         <div>
             <span>Character Length: </span>
             <span id="LengthValue"></span>
         </div>
-        <button>Generate Password</button>
+        <button class="generateBtn">Generate Password</button>
     </div>
     <script src="app.js"></script>
 </body>
