@@ -50,16 +50,10 @@ body{
     cursor: pointer;
     transition: 0.3s ease;
 }
-#passwordLength{
-    height: 50px;
-}
-.container>div{
-    margin: 15px 0px;
-    text-align: left;
-}
 .generateBtn{
     font-weight: bold;
     padding: 8px 12px;
+    margin-top: 20px;
     background-color: white;
     border: 2px solid gold;
     border-radius: 5px;
