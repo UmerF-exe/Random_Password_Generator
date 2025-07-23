@@ -15,7 +15,7 @@ body{
 .container{
     display: flex;
     flex-flow: column nowrap;
-    width: 480px;
+    width: 400px;
     height: auto;
     padding: 20px;
     border: 1px solid gold;
@@ -26,15 +26,37 @@ body{
 .container>h1{
     color: gold;
 }
-.container>input{
-    width: 300px;
+.container>.input{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
 }
-#password{
+.passInput{
+    width: 95%;
     height: 30px;
+    border: 0;
+    outline: 0;
+    text-align: center;
+}
+.inputDiv{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
     margin: 20px 0px;
     border: 1px solid gold;
     border-radius: 5px;
     box-shadow: 0px 0px 10px gray;
+}
+.icon{
+    margin-right: 10px;
+    padding: 5px;
+    cursor: pointer;
 }
 .copyBtn{
     width: 60px;
@@ -50,6 +72,11 @@ body{
     color: white;
     cursor: pointer;
     transition: 0.3s ease;
+}
+#slider{
+    width: 100%;
+    accent-color: gold;
+    margin: 20px 0px;
 }
 .generateBtn{
     font-weight: bold;
