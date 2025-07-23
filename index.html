@@ -20,7 +20,13 @@
         </div>
         <div class="range">
             <input type="range" min="8" max="100" id="slider" onmousemove="rangeUpdate()" style="height: 10px;">
-            <h4 id="passwordLength"> </h4>
+            <h4 id="passwordLength" style="margin-bottom: 20px;"></h4>
+        </div>
+        <div class="include">
+            <label><input type="checkbox" name="characters" id="upperCase" style="cursor: pointer;"> Upper Case</label>
+            <label><input type="checkbox" name="characters" id="lowerCase" style="cursor: pointer;"> Lower Case</label>
+            <label><input type="checkbox" name="characters" id="num" style="cursor: pointer;"> Numbers</label>
+            <label><input type="checkbox" name="characters" id="symbols" style="cursor: pointer;"> Symbols</label>
         </div>
         <button class="generateBtn" onclick="generatePassword()">Generate Password</button>
     </div>
